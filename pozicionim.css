@@ -1,0 +1,172 @@
+body {
+    background-color: rgb(243, 213, 222);
+}
+
+#h1 {
+    color: rgb(61, 4, 4);
+    font-size: 50px;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(117, 132, 183);
+  }
+  
+  li {
+    float:left;
+    border-right:1px solid rgb(244, 243, 243);
+    
+  }
+  #li1 {float:right}
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(#aktive) {
+      background-color: rgb(83, 50, 50);
+  }
+  #aktive {
+    background-color: #026a44;
+  }
+form{
+  float:right;
+  display:inline-block;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 2px solid rgb(125, 26, 26);
+    border-radius: 4px;
+}
+  input {
+    width: 25%;
+    padding: 5px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(139, 56, 56);
+    border-radius: 4px;
+  }
+
+div.galeria {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+
+}
+  
+div.galeria:hover {
+    border: 1px solid rgb(83, 76, 76);
+    transform: scale(1.35);
+
+}
+  
+div.galeria img {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  height: 100%;
+  object-fit: cover;
+  transition:all 0.3s ease;
+  cursor: pointer;
+}
+  
+div.pershkrimi {
+padding:10px 20px;
+text-align: center;
+}
+  
+*{
+    box-sizing: border-box;
+}
+  
+.ekspozita {
+    padding: 0 5px;
+    float: left;
+    width: 25%;
+}
+  
+@media only screen and (max-width: 800px) {
+    .ekspozita {
+      width: 50%;
+      margin: 5px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .ekspozita {
+      width: 100%;
+    }
+} 
+  
+  
+
+.some-container {
+    display: inline-flex;
+    justify-content:space-evenly;
+    text-align: left;
+    margin: 8px;
+    width: 25%;
+    
+}
+p {
+    margin: 10px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: rgb(18, 71, 119);
+    text-shadow: 2px 2px 5px rgb(248, 13, 13);
+    text-indent: 10px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    word-spacing: 5px;
+    text-align: justify;
+}
+
+.tropoja{
+  text-align: left;
+    margin: 10px;
+    border: 1px solid #026a44;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+}
+.lura{
+  text-align: left;
+    margin: 10px;
+    border: 1px solid #026a44;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+}
+.tepelena{
+  text-align: left;
+    margin: 10px;
+    border: 1px solid #026a44;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+}
+.dhermi{
+  text-align: left;
+    margin: 10px;
+    border: 1px solid #026a44;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+}
+   
