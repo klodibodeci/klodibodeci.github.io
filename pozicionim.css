@@ -121,6 +121,7 @@ text-align: center;
     justify-content:space-evenly;
     text-align: left;
     margin: 8px;
+    width: 25%;
     
 }
 p {
@@ -142,7 +143,6 @@ p {
     border: 1px solid #026a44;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 25%;
    
 }
 .lura{
@@ -151,8 +151,6 @@ p {
     border: 1px solid #026a44;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 25%;
-
    
 }
 .tepelena{
@@ -161,7 +159,6 @@ p {
     border: 1px solid #026a44;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 25%;
    
 }
 .dhermi{
@@ -170,7 +167,6 @@ p {
     border: 1px solid #026a44;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 25%;
    
 }
    
